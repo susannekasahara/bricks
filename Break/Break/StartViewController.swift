@@ -10,6 +10,15 @@ import UIKit
 
 class StartViewController: UIViewController {
 
+    
+    @IBOutlet weak var highScore: UILabel {
+        
+        let highScore = GameData.mainData()
+        
+
+        
+      
+        
     @IBAction func Play(sender: AnyObject) {
         
         let gameVC = GameViewController()
@@ -20,3 +29,4 @@ class StartViewController: UIViewController {
     
     
    }
+}

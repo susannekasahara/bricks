@@ -2,4 +2,67 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Break/StartViewController.swift"
+            timestampString = "466205022.977438"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Break.StartViewController.__deallocating_deinit"
+                  moduleName = "Break"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/susanneburnham/_github/bricks/Break/Break/StartViewController.swift"
+                  timestampString = "466298481.023587"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Break.StartViewController.init (Break.StartViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; Break.StartViewController"
+                  moduleName = "Break"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/susanneburnham/_github/bricks/Break/Break/StartViewController.swift"
+                  timestampString = "466298481.026563"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Break.StartViewController.init (Break.StartViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Swift.Optional&lt;Break.StartViewController&gt;"
+                  moduleName = "Break"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/susanneburnham/_github/bricks/Break/Break/StartViewController.swift"
+                  timestampString = "466298481.027105"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		821A6A361BC820AF00B3A2AA /* KnightRider.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 821A6A351BC820AF00B3A2AA /* KnightRider.mp3 */; settings = {ASSET_TAGS = (); }; };
+		821A6A381BC8435000B3A2AA /* Beep in Resources */ = {isa = PBXBuildFile; fileRef = 821A6A371BC8435000B3A2AA /* Beep */; settings = {ASSET_TAGS = (); }; };
 		823E77091BC6AD2D003D4E02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823E77081BC6AD2D003D4E02 /* AppDelegate.swift */; };
 		823E770E1BC6AD2D003D4E02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823E770C1BC6AD2D003D4E02 /* Main.storyboard */; };
 		823E77101BC6AD2D003D4E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823E770F1BC6AD2D003D4E02 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		821A6A351BC820AF00B3A2AA /* KnightRider.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = KnightRider.mp3; path = ../../../../Downloads/KnightRider.mp3; sourceTree = "<group>"; };
+		821A6A371BC8435000B3A2AA /* Beep */ = {isa = PBXFileReference; lastKnownFileType = file; name = Beep; path = ../../../../Desktop/sounds/Beep; sourceTree = "<group>"; };
 		823E77051BC6AD2D003D4E02 /* Break.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Break.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		823E77081BC6AD2D003D4E02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		823E770D1BC6AD2D003D4E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				823E771F1BC6AF01003D4E02 /* ScoreViewController.swift */,
 				823E77081BC6AD2D003D4E02 /* AppDelegate.swift */,
 				823E770F1BC6AD2D003D4E02 /* Assets.xcassets */,
+				821A6A351BC820AF00B3A2AA /* KnightRider.mp3 */,
+				821A6A371BC8435000B3A2AA /* Beep */,
 				823E77111BC6AD2D003D4E02 /* LaunchScreen.storyboard */,
 				823E77141BC6AD2D003D4E02 /* Info.plist */,
 			);
@@ -139,6 +145,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821A6A361BC820AF00B3A2AA /* KnightRider.mp3 in Resources */,
+				821A6A381BC8435000B3A2AA /* Beep in Resources */,
 				823E77131BC6AD2D003D4E02 /* LaunchScreen.storyboard in Resources */,
 				823E77101BC6AD2D003D4E02 /* Assets.xcassets in Resources */,
 				823E770E1BC6AD2D003D4E02 /* Main.storyboard in Resources */,
@@ -304,6 +312,7 @@
 				823E77191BC6AD2D003D4E02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
