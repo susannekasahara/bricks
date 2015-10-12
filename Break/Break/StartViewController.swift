@@ -11,22 +11,23 @@ import UIKit
 class StartViewController: UIViewController {
 
     
-    @IBOutlet weak var highScore: UILabel {
-        
-        let highScore = GameData.mainData()
-        
+    @IBOutlet weak var highScore: UILabel!
+    
 
-        
-      
+    
+    
         
     @IBAction func Play(sender: AnyObject) {
-        
         let gameVC = GameViewController()
-        
         navigationController?.viewControllers = [gameVC]
     }
     
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        highScore.text = "highscore: " + String(GameData.mainData().topScore)
+        
+        
+    }
     
    }
-}

@@ -125,7 +125,7 @@ class GameViewController: UIViewController, UIDynamicAnimatorDelegate, UICollisi
                 
                 topBar.score += 100
                 
-                
+    
                 
                 
             }
