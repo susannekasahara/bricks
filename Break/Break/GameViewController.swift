@@ -269,7 +269,7 @@ class GameViewController: UIViewController, UIDynamicAnimatorDelegate, UICollisi
         
         let push = UIPushBehavior(items: [ball], mode: UIPushBehaviorMode.Instantaneous)
         
-        push.pushDirection = CGVector(dx: 0.2, dy: -0.2)
+        push.pushDirection = CGVector(dx: 0.1, dy: -0.1)
         
         animator.addBehavior(push)
         
